@@ -2,6 +2,13 @@
 
 ### The focus of this project is to build Docker Image for Web Application and Run the web app inside a container using the image.
 
+### Link to Dockerhub repository: https://hub.docker.com/repository/docker/suhasgumma/dumplinks
+
+### To get the image using shell, use the following command:
+```
+docker pull suhasgumma/dumplinks
+```
+
 ## Flow of the Project
 
 - Develop A Web Application
@@ -54,6 +61,30 @@ docker run -p 3000:3000 -d dumplinks
 ```
 docker-compose up
 ```
+
+### List all running Containers
+```
+docker ps
+```
+![ps](https://github.com/suhasgumma/DumpLinks-Web-App-as-Container/blob/master/ReadMe%20Images/docker%20ps.png)
+
+### Opening bash shell inside a running container
+
+```
+docker exec -it <container> bash
+```
+
+![](https://github.com/suhasgumma/DumpLinks-Web-App-as-Container/blob/master/ReadMe%20Images/inside%20the%20container.png)
+
+
+## Push Docker Image to Docker Hub Repository
+
+Login using docker hub credentials and run the following command
+
+```
+docker push <imageName>:<image Tag>
+```
+
 
 
 
