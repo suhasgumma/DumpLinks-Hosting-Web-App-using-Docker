@@ -2,7 +2,7 @@
 
 ### The focus of this project is to build Docker Image for Web Application and Run the web app inside a container & Run Docker container in Cloud (AWS)
 
-### Link to Dockerhub repository: https://hub.docker.com/repository/docker/suhasgumma/dumplinks
+### Link to Image in Dockerhub repository: https://hub.docker.com/repository/docker/suhasgumma/dumplinks
 
 ### To get the image using shell, use the following command:
 ```
