@@ -1,6 +1,6 @@
 # DumpLinks -- Running Web Application Inside A Container
 
-### The focus of this project is to build Docker Image for Web Application and Run the web app inside a container.
+### The focus of this project is to build Docker Image for Web Application and Run the web app inside a container & Run Docker container in Cloud (AWS)
 
 ### Link to Dockerhub repository: https://hub.docker.com/repository/docker/suhasgumma/dumplinks
 
@@ -84,6 +84,12 @@ Login using docker hub credentials and run the following command
 ```
 docker push <imageName>:<image Tag>
 ```
+
+
+## Run on AWS' EC2 instance
+- Launch any EC2 instance on AWS. Now, ypu have a VM which is similar to your local machine in your hands.
+- Connect to EC2 instance using SSH
+- Install Docker and run in the same way you did in your machine
 
 
 
