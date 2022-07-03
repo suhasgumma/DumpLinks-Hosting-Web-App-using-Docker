@@ -43,6 +43,20 @@ docker build . -t dumplinks
 The only use for docker-compose file in the application is to bind host machine port to container port.
 In the case of this application, I binded the port 3000 of container to port 3000 of host machine. This means all traffic hitting port 3000 of host will be directed to port 3000 of container.
 
+## Running the web application inside the container
+
+### Using docker run
+```
+docker run -p 3000:3000 -d dumplinks
+```
+### Using Docker Compose
+
+```
+docker-compose up
+```
+
+
+
 
 
 
